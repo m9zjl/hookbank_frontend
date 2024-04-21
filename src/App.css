@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background: var(--color-bg); */
+}
+
+a {
+    color: unset;
+    text-decoration: none;
+}
+
+
+.gradient__bg {
+    /* global 94%+ browsers support */
+    background: radial-gradient(circle at 3% 20%, #002852 0%, #040C18 100%);
+}
+
+.graident__text {
+    background: var(--gradient-text);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectoin_padding {
+    padding: 4rem 6rem;
+}
+
+.foo {
+    color: red;
+    font-size: 20px;
+}

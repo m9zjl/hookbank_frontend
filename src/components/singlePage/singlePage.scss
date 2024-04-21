@@ -1,0 +1,50 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap-reboot';
+@import '../../../node_modules/bootstrap/scss/bootstrap-grid';
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  background-color: rgba(white, 0.3);
+  backdrop-filter: blur(3px);
+  z-index: 1000;
+
+  .logo {
+    //font-weight: 800;
+    //font-family: 'Open Sans';
+    font-size: 24px;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style: none;
+
+    .list-item {
+      padding: 1rem;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      font-weight: 600;
+      font-size: 1rem;
+
+      &:hover &.active {
+        color: orange;
+      }
+    }
+  }
+}
+
+// utilities
+.d-flex {
+  display: flex;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.align-items-center {
+  align-items: center;
+}
